@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - simple-interest</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+    <div class="a">
+    <div class="jumbotron">
+      <h1 class="text-center">Simple Interest Calculator</h1>
+      <br>
+      <p class="text-center">Enter Principal, Years and Rate</p>
+    </div>
+  </div>
+</div>
+  <div class="container">
+    <div class="jumbotron">
+    <div class="row-fluid">
+      <div class="col-md-offset-4 col-md-8">
+        <div class="form-group">
+          <label for="number">Enter Principal Amount :-</label>
+          <input type="text" class="form-control" id="principal" placeholder="Enter Your Principal Value" required>
+          <br>
+          <label for="number">Enter Years :-</label>
+          <input type="text" class="form-control" id="years" placeholder="Enter Years" required>
+          <br>
+          <label for="number">Enter Rate :-</label>
+          <input type="text" class="form-control" id="rate" placeholder="Enter The Rate" required>
+          <br>
+          <button type="button" class="btn btn-primary" onclick="calculateSi()">Find Out SI</button>
+          <br>
+          <h1><span class="label label-default" id="ans">Rs.</span></h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
